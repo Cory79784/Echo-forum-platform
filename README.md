@@ -1,8 +1,8 @@
-1. # Forum System (Spring Boot + Redis + Kafka)
+# Forum System (Spring Boot + Redis + Kafka)
 
-  A basic yet fully functional forum backend system, developed using Spring Boot. This project supports secure user authentication, interactive user features (posts, comments, likes, follows), caching strategies with Redis, and asynchronous messaging with Kafka.
+A fully functional forum backend system, developed using Spring Boot. This project supports secure user authentication, interactive user features (posts, comments, likes, follows), caching strategies with Redis, and asynchronous messaging with Kafka and global search with Elasticsearch.
 
-  ---
+---
 
   ## Table of Contents
 
@@ -14,7 +14,7 @@
   - [Setup & Usage](#setup--usage)
   - [Learning Outcomes](#learning-outcomes)
 
-  ---
+---
 
   ## Features
 
@@ -27,7 +27,7 @@
   - Like and follow systems
   - System notification via message queue
 
-  ---
+---
 
   ## 🔧 Core Functionalities
 
@@ -49,7 +49,7 @@
      - Pushes events to Kafka queues and processes them asynchronously.
      - Reduces blocking during peak interaction times.
 
-  ---
+---
 
   ## 🧰 Tech Stack
 
@@ -57,9 +57,9 @@
   - **Database**: MySQL
   - **Cache**: Redis
   - **Message Queue**: Kafka
-  - **Others**: Spring Security · Lombok · Maven
+  - **Others**: Spring Security · Lombok · Maven · Elasticsearch
 
-  ---
+---
 
   ## 🚀 Setup & Usage
 
